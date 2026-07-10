@@ -10,8 +10,8 @@
 <strong>PDE-Regularized Disease Flow for Longitudinal Lesion Evolution</strong>
 <br>
 <strong>Morphological Progression with Optional Intensity Editing</strong>
-<br>
-<strong>Accepted to ECCV 2026</strong>
+<!-- <br> -->
+<!-- <strong>Accepted to ECCV 2026</strong> -->
 </p>
 
 This is the official code release for **PDF**, accepted to **ECCV 2026**. PDF is a framework for modeling longitudinal lesion evolution in medical images. The method separates disease progression into two stages:
@@ -30,7 +30,7 @@ PDF is designed for paired or longitudinal medical images with lesion masks. Giv
 ```text
 PDF
 ├── README.md
-├── requirements-pde-pdf.tx
+├── requirements.tx
 ├── LICENSE.md
 └── src
     ├── train_pdf.py          # unified training entry point
@@ -52,7 +52,7 @@ Create a conda environment named `PDF`, then install the dependencies:
 conda create -n PDF python=3.10 -y
 conda activate PDF
 cd /path/to/PDF
-pip install -r requirements-pde-pdf.txt
+pip install -r requirements.txt
 ```
 
 Install PyTorch for your CUDA environment first if your local setup requires a specific PyTorch/CUDA build. The lightweight requirements file includes the remaining Python packages used by the released code.
@@ -192,4 +192,4 @@ If you use this code, please cite the associated PDF paper when available.
 ## License
 
 See `LICENSE.md`.
-# PDF
+<!-- # PDF -->
