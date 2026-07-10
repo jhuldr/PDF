@@ -3,15 +3,15 @@
 </h1>
 
 <p align="center">
-<img src="assets/pdf.png" width="760" alt="PDF method overview">
+<strong>Physics-Grounded Disentangled Flow Modeling for Brain Disease Progression Trajectory</strong>
+<br>
+<strong></strong>
+<!-- <br> -->
+<!-- <strong>Accepted to ECCV 2026</strong> -->
 </p>
 
 <p align="center">
-<strong>PDE-Regularized Disease Flow for Longitudinal Lesion Evolution</strong>
-<br>
-<strong>Morphological Progression with Optional Intensity Editing</strong>
-<!-- <br> -->
-<!-- <strong>Accepted to ECCV 2026</strong> -->
+<img src="assets/pdf.png" width="760" alt="PDF method overview">
 </p>
 
 This is the official code release for **PDF**, accepted to **ECCV 2026**. PDF is a framework for modeling longitudinal lesion evolution in medical images. The method separates disease progression into two stages:
